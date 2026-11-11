@@ -1,0 +1,4 @@
+v 3
+d ev: Stata module for EViews-style expressions in estimation commands
+d Authors: Matthew Yeung and Aaron Tao, Hong Kong Metropolitan University
+p ev EViews-style expressions in estimation commands (version 0.2.2)

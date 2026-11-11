@@ -1,0 +1,9 @@
+v 3
+d ev. EViews-style expressions in estimation commands
+d Distribution-Date: 20261111
+d Authors: Matthew Yeung and Aaron Tao
+d School of Open Learning, Hong Kong Metropolitan University
+d Support: myeung@hkmu.edu.hk
+f ev.ado
+f ev.sthlp
+f ev_examples.do
