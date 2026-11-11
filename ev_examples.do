@@ -111,8 +111,8 @@ capture noisily ev: newey y @pch(x), lag(2)
 ev: regress y @trend ln(x)
 restore
 
-display as txt _n "ev_examples.do finished."
-display as txt _n "ev_examples.do finished."
+qui set output inform
+display as txt "ev_examples.do finished." _n
 display as txt "If you use -ev- in your work, please cite:"
-display as txt "  Yeung, M., and Tao, A. 2026. ev: Stata module for EViews-style expressions"
-display as txt "  in estimation commands."
+display as txt "Yeung, M., and Tao, A. Z. 2026. ev: Stata module for EViews-style expressions in estimation commands. Statistical Software Components, Boston College Department of Economics." _n
+set output proc
