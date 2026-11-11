@@ -12,9 +12,20 @@ In Stata, run:
 net install ev, from("https://raw.githubusercontent.com/sol-repository/ev/main/") replace
 ```
 
-Then type `help ev`.
+This installs the command and the help file. Then type `help ev`.
 
 To install a later update, run the same command. `replace` overwrites the copy already installed.
+
+## Run the examples
+
+`net install` does not copy the example do-file. Download it into Stata's current working directory, then run it:
+
+```stata
+net get ev, from("https://raw.githubusercontent.com/sol-repository/ev/main/")
+do ev_examples.do
+```
+
+Save your data first. The example file clears the data in memory.
 
 ## Citation
 
